@@ -3,7 +3,9 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.ML.OnnxRuntime;
 using Microsoft.ML.OnnxRuntime.Tensors;
+using IntexIIAPI.Data;
 using IntexIIAPI;
+
 namespace aspnetcore.Controllers
 {
     [ApiController]
